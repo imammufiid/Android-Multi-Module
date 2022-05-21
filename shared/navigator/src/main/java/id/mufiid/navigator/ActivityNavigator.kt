@@ -4,6 +4,6 @@ import id.mufiid.navigator.activity.DetailActivityContainer
 import org.koin.core.component.KoinComponent
 import org.koin.core.component.inject
 
-class ActivityNavigator: KoinComponent {
+object ActivityNavigator : KoinComponent {
     val DETAIL_ACTIVITY_CONTAINER: DetailActivityContainer by inject()
 }
