@@ -38,7 +38,7 @@ apply from: "$rootDir/gradle/main-deps.gradle"
 
 dependencies {
     implementation project(":core")
-    // implementation project(":shared:navigator")
+    implementation project(":shared:navigator")
 
     implementation project(":features:Home")
     implementation project(":features:Detail")
