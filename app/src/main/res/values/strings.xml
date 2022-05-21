@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">KoinNavigationModule</string>
+    <string name="to_detail_activity">To Detail Activity</string>
 </resources>
